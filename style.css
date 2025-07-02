@@ -417,39 +417,11 @@ section h2::after {
     left: 100%;
 }
 
-.coming-soon {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-    padding: 30px;
-    text-align: center;
-}
 
-.coming-soon i {
-    font-size: 4rem;
-    color: var(--accent);
-    margin-bottom: 20px;
-    animation: pulse 2s infinite;
-}
 
 @keyframes pulse {
     0%, 100% { transform: scale(1); opacity: 0.8; }
     50% { transform: scale(1.1); opacity: 1; }
-}
-
-.coming-soon h3 {
-    font-size: 1.8rem;
-    margin-bottom: 15px;
-    color: var(--secondary);
-}
-
-.coming-soon p {
-    color: var(--text);
-    font-weight: 300;
-    max-width: 300px;
 }
 
 .achievements-container {
